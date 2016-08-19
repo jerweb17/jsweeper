@@ -1,0 +1,224 @@
+<style type='text/css'> @font-face {
+    font-family:'JungleFeverRegular';
+    src: url('JungleFever-webfont.eot');
+    src: local('☺'), url('JungleFever-webfont.woff') format('woff'), url('JungleFever-webfont.ttf') format('truetype'), url('JungleFever-webfont.svg#webfontBlD2f3Gz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: #222;
+    color: #111;
+}
+h2 {
+    font-size: 100px;
+    line-height: 150px;
+    font-family:'JungleFeverRegular', Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .2) 3px 3px 3px;
+    /*text stroke*/
+    -webkit-text-stroke: 2px #fff473;
+    padding:auto auto;
+    margin:auto auto;
+}
+h3 {
+    font-size: 30px;
+    /*line-height: 5px;*/
+    font-family:"Arial Black", Gadget, sans-serif;
+    text-align: center;
+    list-style-type: none;
+    color: #fff473;
+}
+p {
+    font-size: 50px;
+    line-height: 25px;
+    font-family:'JungleFeverRegular', Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .2) 3px 3px 3px;
+    /*text stroke*/
+    -webkit-text-stroke: 2px #fff473;
+}
+td {
+    border: solid black 1px;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+}
+nav{
+    display: table;
+    table-layout: fixed;
+    border: 1px solid #ccc;
+    width: 94%;
+   /* margin-bottom: 20px;*/
+}
+nav ul {
+    margin:0;
+    padding:0;
+
+}
+nav ul li {
+    list-style:none;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    padding: 6px 0;
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-weight: bold;
+    color: #fff473;
+    font-size: 24px;
+
+}
+nav ul li a {
+    /*display: block;*/
+    font-family:"Arial Black", Gadget, sans-serif;
+    text-align: center;
+    list-style-type: none;
+    color: red;
+}
+ul {
+    display: table-row;
+}
+ul li {
+    display: table-cell;
+}
+input[type=range] {
+    margin:auto auto;
+    width:80%;
+    height:10px;
+    background:#ddd;
+    padding:auto auto;
+    float:left;
+}
+output{
+    width:auto;
+    float:right;
+    margin: auto auto;
+   /* position: absolute;*/
+}
+table {
+    margin: auto;
+    margin-top: -50px;
+    display: none;
+}
+#gameStart a{
+    display: none;
+}
+#settings{
+    display:flex;
+    flex-direction: column;;
+
+}
+#scoreboard{
+    display:none;
+}
+#lower{
+    display: none;
+    width: 90%;
+}
+
+#scorearea{
+    float:left;
+    width:30%;
+    border:none;
+    margin:auto auto;
+}
+#gamearea{
+    width: 60%;
+    display: flex;
+}
+#gameboard{
+    margin:auto auto;
+}
+
+
+.info{
+    font-size: 24px;
+    padding:auto auto;    
+    border-right: none;
+    border-left: none;
+}
+.selectedLevel{
+    background-color: #fff473;
+    color: #333333;
+}
+#slider{
+    font-size: 30px;
+   /* line-height: 10px;*/
+    text-align: center;
+    list-style-type: none;
+    color: #fff473;
+    width:32%;
+    padding: auto auto;
+    margin:auto auto;
+}
+#gameOptions{
+    width:90%;
+    overflow:auto;
+   /* min-height: 200px;*/
+    margin:auto auto;
+    display: block;
+}
+#optionsToggle {
+    display: none;
+    font-size: 28px;
+   /* line-height: auto;*/
+    font-family:"Arial Black", Gadget, sans-serif;
+    text-align: center;
+    list-style-type: none;
+    color: #fff473;
+}
+
+.bomb {
+    background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQbvcQWMd9gR7DlQxFVQT86koEfNWguIINyMq6o37V_74i1H93nx23pJQpzQ);
+    background-size: cover;
+}
+.notBomb {
+    background: white;
+}
+.one {
+    background: url(https://blognumbers.files.wordpress.com/2010/09/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.two {
+    background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2PUQenRuszumtI0Sb2vx9eEpKa8p_EKsuWzXFSUmncWJSEEL7);
+    background-size: cover;
+    background-position: center;
+}
+.three {
+    background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcI44m6zooY6QsehjBKH4ONSXH7vK6dopv7M3-eCvJ6t0aWzB9zg);
+    background-size: cover;
+    background-position: center;
+}
+.four {
+    background: url(https://blognumbers.files.wordpress.com/2010/09/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.five {
+    background: url(http://blognumbers.files.wordpress.com/2010/09/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.six {
+    background: url(http://blognumbers.files.wordpress.com/2010/09/6.jpg?w=230&h=300);
+    background-size: cover;
+    background-position: center;
+}
+.seven {
+    background: url(https://blognumbers.files.wordpress.com/2010/09/7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.eight {
+    background: url(https://blognumbers.files.wordpress.com/2010/09/81.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.flag {
+    background: url(http://us.cdn2.123rf.com/168nwm/tatus/tatus1203/tatus120300025/12928452-red-icono-de-la-bandera.jpg);
+    background-size: cover;
+    background-position: center;
+}
+</style>

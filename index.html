@@ -1,0 +1,45 @@
+<title>JSweeper</title>
+<header>
+    <h2>JSweeper</h2>
+</header>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+<hr>
+    <div id="gameOptions">
+         <h3>Pick Grid Size</h3>
+        <div id="slider" class="slider">    
+            <input type="range" id="gridsize" value="4" name="gridsize" min="4" max="10" data-show-value="true"  >
+            <output for="gridsize" id="size"></output>
+        </div><br><br>
+        <nav id="menu">
+            <ul id="difficulty">
+            </ul>
+        </nav>
+        <p id="gameStart"><a>Start</a></p>
+    </div>
+    <div id="optionsToggle"><a>Show Options</a></div>
+    <hr>
+    <div id="lower" oncontextmenu="return false;">
+        <div id="scoreboard">
+            <nav id="scorearea">
+                <ul id="settings">
+                    <li class="info" id="infogrid">GridSize: <a></a></li>
+                    <li class="info" id="infolevel">Difficulty Level: <a></a></li>
+                    <li class="info" id="infobombstotal">Total Bombs: <a></a></li>
+                    <li class="info" id="infobombsleft">Bombs Remaining: <a></a></li>
+                </ul>
+            </nav> 
+            <div id=gamearea>
+                <div class="gameBoard" id="gameBoard">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+
+    <script src="js/app.js"></script>
+</body>
